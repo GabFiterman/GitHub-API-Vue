@@ -19,9 +19,9 @@ export default {
   },
   data() {
     return {
-      imgDestaque: '/image/LogoLettWhite.webp',
-      altDestaque: 'Logo Lett',
-      tituloPrincipal: 'Lett Challenge',
+      imgDestaque: '/image/Mascote_GitHub.png',
+      altDestaque: 'Octocat, mascote do GitHub',
+      tituloPrincipal: 'API GitHub com Vue',
       autor: 'Gabriel Fiterman'
     }
   }
@@ -55,6 +55,10 @@ header {
 
 .title-info span {
   color: var(--color-contraste);
+}
+
+.img-Destaque{
+  max-width: 15rem;
 }
 
 </style>

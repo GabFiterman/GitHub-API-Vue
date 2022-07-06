@@ -1,10 +1,21 @@
 <template>
   <RouterView />
+  <!-- <h1>teste</h1> -->
+
 </template>
 
 <script>
+
+
 export default{
   name: 'App',
+  methods: {
+    test(){
+    }
+  },
+  mounted(){
+    this.test();
+  }
 }
 </script>
 
@@ -17,7 +28,7 @@ export default{
   --color-destaque-claro: #C4C4C4;
   --color-branco: #EAEAEA;
   --color-contraste: #00E676;
-  --color-constraste-claro:#5CFEAF;
+  --color-contraste-claro:#5CFEAF;
   --color-contraste-escuro: #02793F;
 }
 
