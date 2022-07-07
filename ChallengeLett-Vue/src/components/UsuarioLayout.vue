@@ -1,3 +1,4 @@
+<!-- Por se tratar de objeto único, foi possível extrair as variáveis diretamente de sua props -->
 <template>
     <article id="usuario-layout">
         <img class="usuario-avatar" :src="this.userApiInfo.avatar_url" alt="Imagem de perfil do usuário" />
@@ -14,10 +15,6 @@
 <script>
 export default {
     name: 'UsuarioLayout',
-    data(){
-        return{
-        }
-    },
     props: {
         userApiInfo: Object
     }

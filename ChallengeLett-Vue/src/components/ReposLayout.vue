@@ -1,3 +1,5 @@
+<!-- Por se tratar de um Array de objetos, foi necessário fazer um laço v-for
+     para a exibição da informação vinda de sua props -->
 <template>
     <ul class="repo-list">
         <li v-for="(repo, index) in this.reposApiInfo">
@@ -19,13 +21,6 @@ export default {
     components: { ReposCard },
     props: {
         reposApiInfo: Array
-    },
-    methods: {
-        montarRepos() {
-        }
-    },
-    mounted() {
-        this.montarRepos();
     }
 }
 </script>
